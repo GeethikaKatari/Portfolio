@@ -156,34 +156,38 @@
     </section>
 
     <section class="contact" id="contact">
-        <div class="contact-text">
-            <h2>Contact <span>Me</span></h2>
-            <p>I will read all emails. Send me any message you want and I'll get back to you.</p>
-            <p>I need your Name and Email Address, but you won't receive anything other than your reply.</p>
-            <div class="contact-list">
-                <li><i class="fa-solid fa-envelope"></i> geethikakatari123@gmail.com</li>
-            </div>
-            <div class="contact-icons">
-                <a href="https://github.com/geethikakatari"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/geethika-katari-aa2616255"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/geethika_sai_madhavi"><i class="fa-brands fa-instagram"></i></a>
-            </div>
+    <!-- CONTACT TEXT FIRST: LEFT SIDE -->
+    <div class="contact-text">
+        <h2>Contact <span>Me</span></h2>
+        <p>I will read all emails. Send me any message you want and I'll get back to you.</p>
+        <p>I need your Name and Email Address, but you won't receive anything other than your reply.</p>
+        <div class="contact-list">
+            <li><i class="fa-solid fa-envelope"></i> geethikakatari123@gmail.com</li>
         </div>
-
-        <div class="contact-form">
-            <form name="contact" method="POST" data-netlify="true">
-               <input type="hidden" name="form-name" value="contact">
-  
-               <input type="text" name="name" placeholder="Enter Your Name" required>
-               <input type="email" name="email" placeholder="Enter Your Email" required>
-               <input type="text" name="subject" placeholder="Enter Your Subject">
-               <textarea name="message" placeholder="Enter Your Message" required></textarea>
-  
-               <button type="submit" class="send">Submit</button>
-            </form>
-
+        <div class="contact-icons">
+            <a href="https://github.com/geethikakatari"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/geethika-katari-aa2616255"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/geethika_sai_madhavi"><i class="fa-brands fa-instagram"></i></a>
         </div>
+    </div>
+
+    <!-- FORM SECOND: RIGHT SIDE -->
+    <div class="contact-form">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <!-- Access Key for Web3Forms -->
+            <input type="hidden" name="access_key" value="d233f964-a297-4140-8e01-1fe430499ae5">
+
+            <!-- Input fields -->
+            <input type="text" name="name" placeholder="Enter Your Name" required>
+            <input type="email" name="email" placeholder="Enter Your Email" required>
+            <textarea name="message" placeholder="Enter Your Message" required></textarea>
+
+            <!-- Submit Button -->
+            <button type="submit" class="send">Submit Form</button>
+        </form>
+    </div>
     </section>
+
 
     <div class="last-text">
         <p>Developed by Geethika Katari @ 2025</p>
