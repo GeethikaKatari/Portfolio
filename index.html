@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geethika's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c44dbc2ee4.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home" style="--i:1">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#skills" style="--i:3">Skills</a>
+            <a href="#portfolio" style="--i:4">Projects</a>
+            <a href="#contact" style="--i:5">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-container">
+            <div class="home-content">
+                <h1>Geethika Katari</h1>
+                <h3>I'm a <span class="text"></span></h3>
+                <p>Passionate Software Developer with experience in building responsive websites and web applications.</p>
+                <div class="home-sic">
+                    <a href="https://www.linkedin.com/in/geethika-katari-aa2616255" style="--i:6"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/geethikakatari" style="--i:7"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/geethika_sai_madhavi" style="--i:8"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="#about" class="btn">More About Me</a>
+            </div>
+            <div class="home-image">
+                <img src="images/header-bg.jpeg" alt="Profile Image">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about-bg.jpeg" alt="Geethika Katari">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Software Developer</h4>
+            <p>I am a web developer skilled in both frontend and backend development. I love creating dynamic and responsive websites with modern tech stacks including Java, HTML, CSS, Python, React and SQL. I enjoy solving real-world problems through clean code and user-friendly interfaces.</p>
+            
+        </div>
+    </section>
+        
+    <section id="skills">
+        <div class="container1">
+            <h1 class="heading1">Technical Skills</h1>
+            <div class="Technical-bars">
+                <div class="bar">
+                    <i class="fa-brands fa-java" style="color: #007396;"></i>
+                    <div class="info"><span>Java</span></div>
+                    <div class="progress-line java"><span></span></div>
+                </div>
+                <div class="bar">
+                    <i class="fa-brands fa-python" style="color: #306998;"></i>
+                    <div class="info"><span>Python</span></div>
+                    <div class="progress-line python"><span></span></div>
+                </div>
+                <div class="bar">
+                    <i class="fa-brands fa-html5" style="color: #e34c26;"></i>
+                    <div class="info"><span>HTML</span></div>
+                    <div class="progress-line html"><span></span></div>
+                </div>
+                <div class="bar">
+                    <i class="fa-brands fa-css3-alt" style="color: #264de4;"></i>
+                    <div class="info"><span>CSS</span></div>
+                    <div class="progress-line css"><span></span></div>
+                </div>
+                <div class="bar">
+                    <i class="fa-brands fa-react" style="color: #61dbfb;"></i>
+                    <div class="info"><span>React</span></div>
+                    <div class="progress-line react"><span></span></div>
+                </div>
+                <div class="bar">
+                    <i class="fa-solid fa-database" style="color: #f29111;"></i>
+                    <div class="info"><span>SQL</span></div>
+                    <div class="progress-line sql"><span></span></div>
+                </div>
+                <div class="bar">
+                    <i class="fa-solid fa-robot" style="color: #00b894;"></i>
+                    <div class="info"><span>Machine Learning</span></div>
+                    <div class="progress-line ml"><span></span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container1">
+            <h1 class="heading1">Professional Skills</h1>
+            <div class="radial-bars">
+                <div class="radial-bar">
+                    <svg><circle class="progress-bar" cx="100" cy="100" r="80"></circle><circle class="path path-1" cx="100" cy="100" r="80"></circle></svg>
+                    <div class="percentage">80%</div>
+                    <div class="test">Creativity</div>
+                </div>
+                <div class="radial-bar">
+                    <svg><circle class="progress-bar" cx="100" cy="100" r="80"></circle><circle class="path path-2" cx="100" cy="100" r="80"></circle></svg>
+                    <div class="percentage">90%</div>
+                    <div class="test">Communication</div>
+                </div>
+                <div class="radial-bar">
+                    <svg><circle class="progress-bar" cx="100" cy="100" r="80"></circle><circle class="path path-3" cx="100" cy="100" r="80"></circle></svg>
+                    <div class="percentage">80%</div>
+                    <div class="test">Problem Solving</div>
+                </div>
+                <div class="radial-bar">
+                    <svg><circle class="progress-bar" cx="100" cy="100" r="80"></circle><circle class="path path-4" cx="100" cy="100" r="80"></circle></svg>
+                    <div class="percentage">85%</div>
+                    <div class="test">Teamwork</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Added margin-top to avoid overlap -->
+    <section id="portfolio" style="margin-top: 80px;">
+        <div class="main-text">
+            <h2>Latest <span>Projects</span></h2>
+            <div class="portfolio-content">
+                <div class="row">
+                    <img src="images/iot.jpeg" alt="Data Dashboard">
+                    <div class="layer">
+                        <h5>Smart Home Automation Using Raspberry pi.</h5>
+                        <p>Developed a home automation using MIT App Inventor, PHP MyAdmin along with Software and Hardware setup. Led a team to build a smart home system using Raspberry Pi through voice commands, a mobile app and manually.Integrated real-time appliance control via Wi-Fi and cloud monitoring. </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="images/health.jpeg" alt="Portfolio Site">
+                    <div class="layer">
+                        <h5>Health Prediction App  </h5>
+                        <p>Developed both web(ML and Streamlit) and mobile application(Android Studio) to predict the health conditions using Machine Learning.Built the backend with Streamlit, deployed on Github and Render API, and designed the mobile app using Android Studio (Java/Kotlin).</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="images/epda.jpeg" alt="To-Do App">
+                    <div class="layer">
+                        <h5>Engineering placement prediction</h5>
+                        <p>Machine Learning model predicting student placements from profile data.Used Python for data preprocessing, analysis, and modeling.Applied Logistic Regression, Decision Trees, and Random Forest also Visualized the key placement factors and provided actionable insights. </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+            <p>I will read all emails. Send me any message you want and I'll get back to you.</p>
+            <p>I need your Name and Email Address, but you won't receive anything other than your reply.</p>
+            <div class="contact-list">
+                <li><i class="fa-solid fa-envelope"></i> geethikakatari123@gmail.com</li>
+            </div>
+            <div class="contact-icons">
+                <a href="https://github.com/geethikakatari"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/geethika-katari-aa2616255"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/geethika_sai_madhavi"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form name="contact" method="POST" data-netlify="true">
+               <input type="hidden" name="form-name" value="contact">
+  
+               <input type="text" name="name" placeholder="Enter Your Name" required>
+               <input type="email" name="email" placeholder="Enter Your Email" required>
+               <input type="text" name="subject" placeholder="Enter Your Subject">
+               <textarea name="message" placeholder="Enter Your Message" required></textarea>
+  
+               <button type="submit" class="send">Submit</button>
+            </form>
+
+        </div>
+    </section>
+
+    <div class="last-text">
+        <p>Developed by Geethika Katari @ 2025</p>
+    </div>
+    <a href="#" class="top"><i class="fa-solid fa-arrow-up"></i></a>
+
+    <script src="script.js"></script>
+</body>
+</html>
