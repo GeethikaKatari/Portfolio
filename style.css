@@ -74,6 +74,7 @@ body {
   width: 100%;
   max-width: 400px; /* increased from 300px to 400px */
   height: auto;
+  border-radius: 10px;
 }
 
 
@@ -105,7 +106,7 @@ body {
 }
 .about-img img {
   width: 100%;
-  max-width: 500px; /* Adjusted from 1000px to 500px */
+  max-width: 400px; /* Adjusted from 1000px to 500px */
   height: auto;
   border-radius: 10px; /* Optional for rounded edges */
 }
