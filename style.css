@@ -72,10 +72,9 @@ body {
 
 .home-image img {
   width: 100%;
-  max-width: 350px; 
-  height: auto;
+  max-width: 280px;
+  height: 80%;
 }
-
 
 .home-sic {
   display: flex;
@@ -103,9 +102,10 @@ body {
   gap: 40px;
   align-items: center;
 }
+
 .about-img img {
   width: 100%;
-  max-width: 400px; 
+  max-width: 500px;
   height: auto;
 }
 
