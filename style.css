@@ -102,12 +102,13 @@ body {
   gap: 40px;
   align-items: center;
 }
-
 .about-img img {
   width: 100%;
-  max-width: 500px; /* Increased max-width */
+  max-width: 500px; /* Adjusted from 1000px to 500px */
   height: auto;
+  border-radius: 10px; /* Optional for rounded edges */
 }
+
 .about-text h2 {
   font-size: 2rem;
   margin-bottom: 10px;
