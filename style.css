@@ -72,8 +72,8 @@ body {
 
 .home-image img {
   width: 100%;
-  max-width: 280px;
-  height: 80%;
+  max-width: 300px;
+  height: auto;
 }
 
 .home-sic {
