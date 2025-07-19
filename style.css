@@ -103,12 +103,17 @@ body {
   align-items: center;
 }
 
-.about-img img {
+.about-img {
   width: 100%;
-  max-width: 750px;
-  height: auto;
+  display: flex;
+  justify-content: center;
 }
 
+.about-img img {
+  width: 100%;
+  max-width: 1000px; /* Increased max-width */
+  height: auto;
+}
 .about-text h2 {
   font-size: 2rem;
   margin-bottom: 10px;
