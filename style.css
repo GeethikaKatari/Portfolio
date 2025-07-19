@@ -111,7 +111,7 @@ body {
 
 .about-img img {
   width: 100%;
-  max-width: 1000px; /* Increased max-width */
+  max-width: 750px; /* Increased max-width */
   height: auto;
 }
 .about-text h2 {
