@@ -103,15 +103,9 @@ body {
   align-items: center;
 }
 
-.about-img {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
 .about-img img {
   width: 100%;
-  max-width: 750px; /* Increased max-width */
+  max-width: 500px; /* Increased max-width */
   height: auto;
 }
 .about-text h2 {
